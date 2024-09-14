@@ -1,0 +1,12 @@
+Modulo arithmatic is used in programming to avoid integer overflow.
+
+following are some formulas for Modulo arithmatic :-
+
+
+1)  (a + b) % c  =  ((a % c) + (b % c)) % c
+
+2)  (a * b) % c  =  ((a % c) * (b % c)) % c
+
+3)  (a - b) % c  =  ((a % c) - (b % c) + c) % c
+
+4)  (a / b) % c  =  

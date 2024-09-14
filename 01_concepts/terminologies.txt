@@ -1,0 +1,25 @@
+1) subset :- of {1,2,3,4}
+
+{}, {1}, {2}, {3}, {4}, {1,2}, {1,3}, {1,4}, {2,3}, {2,4}, {3,4}, {1,2,3}, {2,3,4}, {1,3,4}, {1,2,4}, {1,2,3,4}
+
+therefore, no. of subsets = 2**n.
+
+
+
+2) sub array :- of [1,2,3,4]
+
+it is a subset having only continious elements.
+
+[], [1], [2], [3], [4], [1,2], [2,3], [3,4], [1,2,3], [2,3,4], [1,2,3,4]
+
+therefore, no. of sub array = ( n*(n + 1) / 2 ) + 1.
+
+
+
+3) sub sequence :- of [1,2,3,4]
+
+it is same as a subset but having the elements in the order as in the given array.
+
+[], [1], [2], [3], [4], [1,2], [1,3], [1,4], [2,3], [2,4], [3,4], [1,2,3], [1,3,4], [1,2,4], [2,3,4], [1,2,3,4]
+
+therefore, no. of sub sequence = 2**n.
